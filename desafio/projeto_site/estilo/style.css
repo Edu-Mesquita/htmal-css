@@ -38,6 +38,7 @@ header{
 header h1{
     color:white;
     font-family:var(--fonte_destaque);
+    font-weight: normal;
     font-size: 3em;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
@@ -49,6 +50,7 @@ header p{
     max-width: 600px;
     padding-left: 10px;
     padding-right: 10px;
+    margin-bottom: 20px;
     margin: auto;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
 }
@@ -130,6 +132,22 @@ main h1{
 main h2{
     font-family: var(--fonte_android);
 }
+div.video{
+    background-color: var(--cor3);
+    padding: 30px 30px 320px 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    padding-bottom: 53.001%;
+    position: relative;
+}
+div.video iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
 aside{
     background-color:var(--cor1);
     padding: 10px;
@@ -147,6 +165,7 @@ aside h3{
 }
 aside ul{
     list-style-position: inside;
+    list-style-type: '\27A1\00a0';
     columns: 2;
     font-weight: bold;
     font-size: 1.03em;
